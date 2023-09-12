@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+button {
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    font-size: 75px;
+}
+
+.operator {
+    background-color: orange;
+    color: white;
+}
+
+.number {
+    background-color: black;
+    color: white;
+}
+
+#clear, #backspace {
+    background-color: gray;
+    color: black;
+}
+
+#calcContainer {
+    border: 20px solid black;
+    border-radius: 20px;
+    width: 475px;
+    display: flex;
+    flex-direction: column;
+}
+
+#display {
+    font-size: 40px;
+    color: white;
+    background-color: gray;
+    text-align: right;
+    padding-top: 100px;
+    height: 150px;
+}
+
+#firstLine {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 5px 0;
+}
+
+#secondLine {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 0;
+}
+
+#thirdLine {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 0;
+}
+
+#fourthLine {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 0;
+}
+
+#fifthLine {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 210px;
+    padding: 5px 0;
+}
